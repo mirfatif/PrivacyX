@@ -83,6 +83,10 @@ Negligible. Only the root helper runs in the background. You can use [WhatsRunni
 
 You can use [PMX](https://github.com/mirfatif/PermissionManagerX) to see all requested and granted permissions.
 
+## Translation
+
+[![Crowdin](https://badges.crowdin.net/privacy-x/localized.svg)](https://crowdin.com/project/privacy-x)
+
 ## Used Libraries
 
 - [Jetpack](https://developer.android.com/jetpack)
