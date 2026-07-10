@@ -10,7 +10,7 @@ PrivacyX complements our other privacy-focused apps:
 
 [![Github](https://img.shields.io/github/v/release/mirfatif/PrivacyX?label="Github")](https://github.com/mirfatif/PrivacyX/releases/latest) [![Telegram](https://img.shields.io/badge/Telegram-latest-blue)](https://t.me/mirfatifApps)
 
-👉 **Attention:** PrivacyX works only with $${\color{red}\textbf{ROOT}}$$.
+👉 **Attention:** PrivacyX works only with ROOT or ADB. ADB provides limited and sometimes broken functionality.
 
 **What you can automate with PrivacyX:**
 
@@ -18,6 +18,7 @@ PrivacyX complements our other privacy-focused apps:
 - Turn on/off airplane mode
 - Turn off/on Wi-Fi
 - Turn off/on mobile data
+- Turn off/on Bluetooth
 - Turn off/on sensors (camera / mic)
 - Turn off/on USB ADB
 - Turn off/on Wi-Fi ADB
@@ -32,13 +33,12 @@ PrivacyX complements our other privacy-focused apps:
 
 ## Screenshots
 
-<img src="screenshots/ss1.png" width="250"> <img src="screenshots/ss2.png" width="250"> <img src="screenshots/ss3.png" width="250">
+<img src="screenshots/ss1.png" width="250"> <img src="screenshots/ss2.png" width="250"> <img src="screenshots/ss3.png" width="250"> <img src="screenshots/ss4.png" width="250">
 
 ## Limitations of PrivacyX
-- Requires root.
+- Requires root or ADB.
 - Runs only in the primary user account / owner profile.
-- Works on Android 10-16 only (will try to keep it working on new Android releases).
-- No localization, so far (but planned).
+- Works on Android 10-17 only (will try to keep it working on new Android releases).
 - More?
 
 ## More
@@ -61,7 +61,7 @@ No. Ad bombardment exploits psychological and emotional vulnerabilities of human
 
 **Can PrivacyX harm my device?**
 
-Despite having root privileges, PrivacyX does not make any persistent changes to your device. No files are created outside the app directories, except the IFW file (if "Aggressive app restriction" is enabled). No system components are touched in an irreversible manner. Ungrant root access, and uninstall the app. Even if something goes unexpected, do a device reboot. And all is clean.
+Despite having root privileges, PrivacyX does not make any persistent changes to your device. No files are created outside the app directories, except the IFW file (if "Aggressive app restriction" is enabled). No system components are touched in an irreversible manner. Ungrant root/ADB access, and uninstall the app. Even if something goes unexpected, do a device reboot. And all is clean.
 
 **Why PrivacyX connects to ...?**
 
@@ -74,11 +74,11 @@ You can use [Fyrypt](https://github.com/mirfatif/Fyrypt) to monitor when and whe
 
 Negligible. Only the root helper runs in the background. You can use [WhatsRunning](https://github.com/mirfatif/WhatsRunning) to monitor apps' **CPU / RAM usage**:
 
-<img src="screenshots/ss4.png" width="250">
+<img src="screenshots/ss5.png" width="250">
 
 ## Permissions
 - QUERY_ALL_PACKAGES: To show apps list.
-- INTERNET: For license checks.
+- INTERNET: For license and update checks.
 - RECEIVE_BOOT_COMPLETED: To start monitoring after reboot.
 
 You can use [PMX](https://github.com/mirfatif/PermissionManagerX) to see all requested and granted permissions.
@@ -93,6 +93,8 @@ You can use [PMX](https://github.com/mirfatif/PermissionManagerX) to see all req
 - [Moshi](https://github.com/square/moshi)
 - [LeakCanary](https://github.com/square/leakcanary)
 - [HiddenApiBypass](https://github.com/LSPosed/AndroidHiddenApiBypass)
+- [HiddenApiRefinePlugin](https://github.com/RikkaApps/HiddenApiRefinePlugin)
+- [LibADB Android](https://github.com/MuntashirAkon/libadb-android)
 - [clikt](https://github.com/ajalt/clikt)
 
 ## Contact us
