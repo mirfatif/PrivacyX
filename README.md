@@ -19,7 +19,7 @@ PrivacyX complements our other privacy-focused apps:
 - Turn off/on Wi-Fi
 - Turn off/on mobile data
 - Turn off/on Bluetooth
-- Turn off/on sensors (camera / mic)
+- Turn off/on sensors (camera, mic and others)
 - Turn off/on USB ADB
 - Turn off/on Wi-Fi ADB
 - Turn on/off battery savings
